@@ -5,6 +5,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/white"
     tools:context=".activity_sixth">
 
 
@@ -29,36 +30,39 @@
             android:orientation="horizontal">
 
             <ImageButton
+                android:id="@+id/bmenu"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:backgroundTint="@color/white"
-                app:srcCompat="@drawable/plus">
+                app:srcCompat="@drawable/ic_menu"
+                android:clickable="true"
+                tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck">
 
             </ImageButton>
 
             <TextView
+                android:id="@+id/name"
                 android:layout_width="0dp"
                 android:layout_height="24dp"
                 android:layout_gravity="center"
                 android:layout_weight="1"
                 android:fontFamily="@font/quicksand_bold"
-                android:text="Hi Kyron!"
+                android:gravity="center"
+                android:textColor="@color/black"
                 android:textSize="15dp"
                 android:textStyle="bold"
-                android:gravity="center">
+                tools:ignore="TextSizeCheck">
 
 
             </TextView>
 
-            <ImageButton
+            <Space
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:backgroundTint="@color/white"
-                app:srcCompat="@drawable/bell">
+                android:layout_weight="1">
 
-            </ImageButton>
+            </Space>
 
         </LinearLayout>
 
@@ -68,7 +72,7 @@
             android:orientation="horizontal">
 
             <Button
-                android:id="@+id/button"
+                android:id="@+id/catbutton"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
@@ -81,7 +85,7 @@
                 android:layout_height="wrap_content" />
 
             <Button
-                android:id="@+id/button2"
+                android:id="@+id/dogbutton"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
@@ -94,7 +98,7 @@
                 android:layout_height="wrap_content" />
 
             <Button
-                android:id="@+id/button3"
+                android:id="@+id/allbutton"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
@@ -113,9 +117,9 @@
             <ListView
                 android:id="@+id/listview"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content">
-
-            </ListView>
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:focusable="false" />
 
 
         </LinearLayout>

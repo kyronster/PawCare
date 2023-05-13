@@ -1,6 +1,7 @@
 package com.example.pawcare;
 
 import android.content.Context;
+import android.content.Intent;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -35,6 +36,21 @@ public class ItemAdapter extends ArrayAdapter<Item> {
 
         TextView locationTextView = view.findViewById(R.id.textView4);
         locationTextView.setText(item.getLocation());
+
+        // Set a click listener for the ImageView button
+        ImageView button = view.findViewById(R.id.imageButton2);
+        button.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                // Start a new activity and pass the item ID as an extra
+                Intent intent = new Intent(context, activity_seventh.class);
+                intent.putExtra("item_name", item.getName());
+                intent.putExtra("item_location", item.getLocation());
+                intent.putExtra("item_text", item.getText());
+                intent.putExtra("item_image", item.getImageResId());
+                context.startActivity(intent);
+            }
+        });
 
         return view;
     }

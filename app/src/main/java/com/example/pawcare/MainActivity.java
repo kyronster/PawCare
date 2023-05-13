@@ -25,6 +25,6 @@ public class MainActivity extends AppCompatActivity {
                 // Finish the current activity to prevent going back to it on back button press
                 finish();
             }
-        }, 2000); // 3-second delay
+        }, 3000); // 3-second delay
     }
 }

@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="activity_menu">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="40dp">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/quicksand_bold"
+        android:text="Privacy Policy"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:textColor="@color/pink"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/quicksand_bold"
+            android:paddingTop="20dp"
+            android:text="Thank you for using PawCare! We are committed to protecting your privacy and this policy explains how we collect, use, and share your personal information."
+            android:textSize="14dp"
+            android:textStyle="bold"
+            tools:ignore="TextSizeCheck" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/quicksand_bold"
+            android:paddingTop="10dp"
+            android:text="1. Introduction: This privacy policy applies to our pet adoption app and all related services. By using our app, you consent to the collection, use, and sharing of your personal information as described in this policy."
+            android:textSize="14dp"
+            android:textStyle="bold"
+            tools:ignore="TextSizeCheck" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/quicksand_bold"
+            android:paddingTop="10dp"
+            android:text="2. Data Collection: We collect personal information that you provide to us, such as your name, email address, phone number, and location. We also collect information about the pets you are interested in adopting, such as breed, age, and health status. Additionally, we may automatically collect certain information about your use of the app, such as your IP address, device type, and app usage data"
+            android:textSize="14dp"
+            android:textStyle="bold"
+            tools:ignore="TextSizeCheck"
+            />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/quicksand_bold"
+            android:paddingTop="10dp"
+            android:text="3. Use of Data: We use the data we collect to match pets with potential adopters, to communicate with users, and to improve the functionality of our app. We may also use the data for research and analysis purposes to improve our services"
+            android:textSize="14dp"
+            android:textStyle="bold"
+            tools:ignore="TextSizeCheck" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/quicksand_bold"
+            android:paddingTop="10dp"
+            android:text="4. Data Sharing: We may share your personal information with third parties such as veterinary clinics, animal shelters, or adoption agencies to facilitate the adoption process. We may also share information with service providers who help us provide the app, such as hosting and data storage providers. We do not share your personal information with advertisers or other marketing partners."
+            android:textSize="14dp"
+            android:textStyle="bold"
+            tools:ignore="TextSizeCheck" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/quicksand_bold"
+            android:paddingTop="10dp"
+            android:text="5. Security Measures: We take reasonable measures to protect your personal information from unauthorized access, use, or disclosure. For example, we use encryption to secure data transmission and store data on secure servers. We also limit employee access to sensitive data."
+            android:textSize="14dp"
+            android:textStyle="bold"
+            tools:ignore="TextSizeCheck" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/quicksand_bold"
+            android:paddingTop="10dp"
+            android:text="6. User Rights: You have the right to access, modify, or delete your personal information at any time. You can do so by contacting us at [kyronrenido565@gmail.com]. Please note that we may need to retain certain information for legal or legitimate business purposes."
+            android:textSize="14dp"
+            android:textStyle="bold"
+            tools:ignore="TextSizeCheck" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/quicksand_bold"
+            android:paddingTop="10dp"
+            android:text="7. Legal Basis: We process your personal information based on your consent and our legitimate interest in providing our services."
+            android:textSize="14dp"
+            android:textStyle="bold"
+            tools:ignore="TextSizeCheck" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/quicksand_bold"
+            android:paddingTop="10dp"
+            android:text="8. Updates to Privacy Policy: We may update this privacy policy from time to time. We will notify you of any material changes to the policy by posting a notice on our app or sending you an email. Your continued use of our app after the changes have been made indicates your acceptance of the updated policy."
+            android:textSize="14dp"
+            android:textStyle="bold"
+            tools:ignore="TextSizeCheck" />
+
+
+
+    </LinearLayout>
+</RelativeLayout>
+</ScrollView>

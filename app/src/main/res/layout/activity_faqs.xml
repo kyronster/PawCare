@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="activity_menu">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="40dp">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/quicksand_bold"
+                android:text="FAQS"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:textColor="@color/pink"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/quicksand_bold"
+                android:text="Q1: How does the pet adoption process work through the app? \n\nA: The app provides access to a database of adoptable pets, and users can browse profiles, read descriptions, and view photos or videos of the pets. Once they find a pet they are interested in, they can contact the adoption organization or shelter to schedule a meet-and-greet or apply for adoption.
+"               android:paddingTop="20dp"
+                android:textSize="14dp"
+                android:textStyle="bold"
+                tools:ignore="TextSizeCheck" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/quicksand_bold"
+                android:paddingTop="20dp"
+                android:textSize="14dp"
+                android:text="Q2: What kind of pets can I adopt through the app? \n\nA: The app may offer a variety of pets for adoption, such as dogs, cats, rabbits, and other small animals. The types of pets available may vary depending on the adoption organizations or shelters that are partnered with the app.
+"
+                android:textStyle="bold"
+                tools:ignore="TextSizeCheck" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/quicksand_bold"
+                android:paddingTop="20dp"
+                android:textSize="14dp"
+                android:textStyle="bold"
+                android:text="Q3: Are the pets on the app up-to-date on their vaccinations and medical care?\n\nA: Yes, the adoption organizations or shelters that partner with the app generally ensure that all pets receive proper vaccinations and medical care before they are adopted out.
+"
+                tools:ignore="TextSizeCheck" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/quicksand_bold"
+                android:paddingTop="20dp"
+                android:textSize="14dp"
+                android:text="Q4: Can I adopt a pet if I live in an apartment or have a small living space?\n\nA: Yes, some pets are better suited for apartment or small living spaces, such as cats or small dogs. The app may offer filters or search criteria to help users find pets that are compatible with their living situation.
+"
+                android:textStyle="bold"
+                tools:ignore="TextSizeCheck" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/quicksand_bold"
+                android:paddingTop="20dp"
+                android:textSize="14dp"
+                android:text="Q5: How much does it cost to adopt a pet through the app?\n\nA: Adoption fees may vary depending on the pet's age, breed, and medical history, as well as the adoption organization or shelter that is partnered with the app.
+"
+                android:textStyle="bold"
+                tools:ignore="TextSizeCheck" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/quicksand_bold"
+                android:paddingTop="20dp"
+                android:textSize="14dp"
+                android:textStyle="bold"
+                android:text="Q6: Can I return a pet if it's not a good fit for me or my family?\n\nA: Yes, most adoption organizations or shelters have return policies and procedures in place if a pet is not a good fit for its adoptive home. The app may provide information on the return policies of the organizations or shelters it partners with.
+"
+                tools:ignore="TextSizeCheck" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/quicksand_bold"
+                android:paddingTop="20dp"
+                android:text="Q7: Can I adopt a pet if I have children or other pets?\n \nA: Yes, many pets are well-suited for families with children or other pets. The app may offer filters or search criteria to help users find pets that are compatible with their family situation.
+"
+                android:textSize="14dp"
+                android:textStyle="bold"
+                tools:ignore="TextSizeCheck" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/quicksand_bold"
+                android:paddingTop="20dp"
+                android:textSize="14dp"
+                android:textStyle="bold"
+                android:text="Q8: How long does the adoption process take through the app?\n\nA: The adoption process can vary depending on the pet and the adoption organization or shelter. Some pets may be available for immediate adoption, while others may require a longer application and approval process.
+"
+                tools:ignore="TextSizeCheck" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/quicksand_bold"
+                android:paddingTop="10dp"
+                android:textSize="14dp"
+                android:text="Q9: Can I foster a pet through the app?\n\nA: Yes, some adoption organizations or shelters may offer fostering programs, and the app may provide information on these programs and how to apply.
+"
+                android:textStyle="bold"
+                tools:ignore="TextSizeCheck" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/quicksand_bold"
+                android:paddingTop="10dp"
+                android:textSize="14dp"
+                android:text="Q10: What kind of support does the app provide for adopters?\n\nA: The app may offer support resources for adopters, such as educational materials on pet care, access to adoption counselors or trainers, and information on local pet services and resources.
+"
+                android:textStyle="bold"
+                tools:ignore="TextSizeCheck" />
+
+
+
+        </LinearLayout>
+    </RelativeLayout>
+</ScrollView>

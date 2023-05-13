@@ -1,9 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
 <RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
+    android:background="@color/white"
     android:layout_height="match_parent"
     tools:context=".activity_seventh">
 
@@ -25,8 +32,10 @@
             android:layout_height="wrap_content"
             android:fontFamily="@font/quicksand_bold"
             android:paddingTop="40dp"
+            android:id="@+id/name"
             android:text="Name"
             android:drawableEnd="@drawable/heart"
+            android:textColor="@color/black"
             android:textSize="26dp"
             android:textStyle="bold" />
         <TextView
@@ -35,6 +44,8 @@
             android:fontFamily="@font/quicksand_bold"
             android:text="Location, Location"
             android:textSize="16dp"
+            android:id="@+id/loc"
+            android:textColor="@color/black"
             android:textStyle="bold" />
 
         <Space
@@ -42,11 +53,13 @@
             android:layout_height="20dp" />
 
         <TextView
+            android:id="@+id/text"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:fontFamily="@font/quicksand_bold"
             android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id. Sed rhoncus, tortor sed eleifend tristique, tortor mauris molestie elit, et lacinia ipsum quam nec dui. Quisque nec mauris sit amet elit iaculis pretium sit amet quis magna."
             android:textSize="16dp"
+            android:textColor="@color/black"
             android:textStyle="bold" />
 
         <Space
@@ -57,13 +70,16 @@
             android:id="@+id/button"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_gravity="center"
             android:layout_weight="1"
             android:backgroundTint="@color/pink"
             android:text="Adopt Now"
-            android:layout_gravity="center"
-            android:textColor="@color/white" />
+            android:textColor="@color/white"
+            tools:ignore="TouchTargetSizeCheck" />
 
 
     </LinearLayout>
 
 </RelativeLayout>
+
+</ScrollView>

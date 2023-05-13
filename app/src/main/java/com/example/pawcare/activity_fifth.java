@@ -14,7 +14,7 @@ public class activity_fifth extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_fifth);
 
-        ImageButton imageButton= (ImageButton)findViewById(R.id.imageButton);
+        ImageButton imageButton= findViewById(R.id.imageButton);
 
         imageButton.setOnClickListener(new View.OnClickListener() {
             @Override
